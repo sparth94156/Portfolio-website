@@ -8,6 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+
 import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
@@ -44,7 +45,7 @@ export function PortfolioComponent() {
         <CardContent>
           <ul className="list-disc pl-5 space-y-2">
             <li>
-              <strong>Intern at BluOcena.ai</strong>
+              <strong>Intern at BluOcean.ai</strong>
               <ul className="list-disc pl-8">
                 <li>
                   Enhanced user engagement by 25% through the implementation of
@@ -188,7 +189,7 @@ export function PortfolioComponent() {
         </header>
 
         <nav className="mb-8">
-          <ul className="flex justify-center space-x-4">
+          <ul className="flex justify-center flex-wrap gap-4">
             {Object.keys(sections).map((section) => (
               <li key={section}>
                 <Button
